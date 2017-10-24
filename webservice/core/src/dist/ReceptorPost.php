@@ -16,7 +16,10 @@ abstract class ReceptorPost extends \core\src\Jules{
 	public function __construct(){
 
 		try{
-
+			
+			//Define header return
+			header('Content-Type: application/json');
+			
 			//Get and check post
 			$post = $this->postRequet();
 			if(!is_object($post))
