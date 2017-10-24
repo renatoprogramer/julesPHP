@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">= 7.1.7",
-        "[vendor]/julesPHP": "*"
+        "webservice": "*"
     },
     "minimum-stability": "beta",
     "prefer-stable": true
