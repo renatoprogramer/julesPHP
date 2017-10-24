@@ -1,4 +1,8 @@
 <?php
+
+//Working directory
+$directory = "C:/xampp/htdocs/......";
+
 class AutoloaderJules{
 
 	/**
@@ -14,7 +18,7 @@ class AutoloaderJules{
 }
 header('Content-Type: application/json');
 $julesAutoloader = new AutoloaderJules();
-$julesAutoloader->registerProject("C:/xampp/htdocs/gatewayAuht/webservice/");
+$julesAutoloader->registerProject($directory);
 
 
 
