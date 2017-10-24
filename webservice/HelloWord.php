@@ -1,10 +1,10 @@
 <?php
 require 'core/autoload.php';
-use core\src\dist\RequireArgs		as RequireArgs;
-use application\treatments			as treatment;
-use application\managers		    as managers;
+use core\src\dist\RequireArgs	    as RequireArgs;
+use application\treatments	    as treatment;
+use application\managers	    as managers;
 use application\database\mysql\dao  as dao;
-use application\rules				as rules;
+use application\rules	     	    as rules;
 
 
 class Registration extends \core\src\dist\ReceptorPost{
