@@ -16,7 +16,6 @@ class AutoloaderJules{
 		return $this;
 	}
 }
-header('Content-Type: application/json');
 $julesAutoloader = new AutoloaderJules();
 $julesAutoloader->registerProject($directory);
 
